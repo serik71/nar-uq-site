@@ -1,0 +1,149 @@
+[heroBadge]
+other = "Реформа понимания"
+
+[heroTitle1]
+other = "Словесность"
+
+[heroTitle2]
+other = "без посредников"
+
+[heroSubtitle]
+other = "Послание самодостаточно. Предания не нужны для руководства. Каждый человек способен понимать смыслы напрямую."
+
+[btnTranslation]
+other = "Читать перевод"
+
+[btnMethodology]
+other = "Методология"
+
+[statChapters]
+other = "глав перевода"
+
+[statArticles]
+other = "тематических статей"
+
+[statYears]
+other = "лет исследований"
+
+[orbTranslation]
+other = "Перевод"
+
+[orbUnderstanding]
+other = "Понимание"
+
+[orbArticles]
+other = "Статьи"
+
+[orbPublications]
+other = "Издания"
+
+[orbLearning]
+other = "Обучение"
+
+[orbArabic]
+other = "Арабский"
+
+[orbDictionary]
+other = "Словарь"
+
+[manifestoLabel]
+other = "Позиция проекта"
+
+[manifestoTitle]
+other = "Доверие первоисточнику"
+
+[manifestoText1]
+other = "Лишь Творец объективен, а люди субъективны."
+
+[manifestoStrong1]
+other = "1400 лет традиции"
+
+[manifestoText2]
+other = "увели от откровения: «учёные» критикуют «учёных», школы противоречат школам — но все ссылаются на одну и ту же базу преданий."
+
+[manifestoText3]
+other = "Этот проект предлагает"
+
+[manifestoStrong2]
+other = "альтернативу"
+
+[manifestoText4]
+other = ": понимание Словесности из самой Словесности. Без преданий. Без школ. Без посредников между человеком и Словом Творца."
+
+[wordryLabel]
+other = "Ключевой термин"
+
+[wordryTerm]
+other = "Словесность"
+
+[wordryDefinition]
+other = "Творчество, выраженное устно и письменно. Арабское قُرْآنٌ означает «декламация, рецитация» и является откровением Зачинателя, записанным на пергаменте. Слово «словесность» вмещает оба компонента: звучащее слово и его письменную фиксацию. Не калька, а смысл."
+
+[meaningLabel]
+other = "Название"
+
+[meaningTitle]
+other = "Что означает NAR-UQ?"
+
+[meaningKK]
+other = "«Нар» — символ силы и мощи. «Ұқ» в повелительном наклонении — «понимай». Наоборот читается как Құран."
+
+[meaningRU]
+other = "По словарю Даля: свод правил и законов; обет, завет; предписание, правило. Наоборот — «Коран»."
+
+[meaningAR]
+other = "Арабское слово. Переводится как «чтение, рецитация, декламация». Мы используем смысловой перевод — Словесность."
+
+[featuresLabel]
+other = "Разделы"
+
+[featuresTitle]
+other = "Что вы найдёте на сайте"
+
+[featureTranslationTitle]
+other = "Перевод"
+
+[featureTranslationDesc]
+other = "Полный текст Словесности. Чтение онлайн и скачивание по главам."
+
+[featureArticlesTitle]
+other = "Статьи"
+
+[featureArticlesDesc]
+other = "150+ материалов по темам: Посланники, Предписания, Понятия."
+
+[featureUnderstandingTitle]
+other = "Понимание"
+
+[featureUnderstandingDesc]
+other = "Методология чтения и ключевые понятия без внешних источников."
+
+[featureLearningTitle]
+other = "Обучение"
+
+[featureLearningDesc]
+other = "Учебник арабского языка и словарь для самостоятельного изучения."
+
+[featureOpen]
+other = "Открыть"
+
+[featureView]
+other = "Смотреть"
+
+[featureLearn]
+other = "Изучить"
+
+[featureStart]
+other = "Начать"
+
+[ctaTitle]
+other = "Готовы к другому взгляду?"
+
+[ctaSubtitle]
+other = "Начните с перевода или изучите методологию понимания"
+
+[ctaButton]
+other = "Читать перевод"
+
+[contact]
+other = "Связаться"

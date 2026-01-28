@@ -1,0 +1,149 @@
+[heroBadge]
+other = "Түсіну реформасы"
+
+[heroTitle1]
+other = "Сөздік"
+
+[heroTitle2]
+other = "делдалсыз"
+
+[heroSubtitle]
+other = "Хабар өзіне-өзі жеткілікті. Басшылық үшін дәстүрлер қажет емес. Әрбір адам мағыналарды тікелей түсінуге қабілетті."
+
+[btnTranslation]
+other = "Аударманы оқу"
+
+[btnMethodology]
+other = "Әдістеме"
+
+[statChapters]
+other = "аударылған тарау"
+
+[statArticles]
+other = "тақырыптық мақала"
+
+[statYears]
+other = "зерттеу жылы"
+
+[orbTranslation]
+other = "Аударма"
+
+[orbUnderstanding]
+other = "Түсіну"
+
+[orbArticles]
+other = "Мақалалар"
+
+[orbPublications]
+other = "Басылымдар"
+
+[orbLearning]
+other = "Оқыту"
+
+[orbArabic]
+other = "Араб тілі"
+
+[orbDictionary]
+other = "Сөздік"
+
+[manifestoLabel]
+other = "Жоба ұстанымы"
+
+[manifestoTitle]
+other = "Қайнар көзге сенім"
+
+[manifestoText1]
+other = "Тек Жаратушы объективті, ал адамдар субъективті."
+
+[manifestoStrong1]
+other = "1400 жылдық дәстүр"
+
+[manifestoText2]
+other = "уахыдан алыстатты: «ғалымдар» «ғалымдарды» сынайды, мектептер мектептерге қайшы келеді — бірақ бәрі бір дәстүр базасына сілтеме жасайды."
+
+[manifestoText3]
+other = "Бұл жоба"
+
+[manifestoStrong2]
+other = "баламаны"
+
+[manifestoText4]
+other = "ұсынады: Сөздікті Сөздіктен түсіну. Дәстүрсіз. Мектепсіз. Адам мен Жаратушы Сөзінің арасында делдалсыз."
+
+[wordryLabel]
+other = "Негізгі термин"
+
+[wordryTerm]
+other = "Сөздік"
+
+[wordryDefinition]
+other = "Ауызша және жазбаша түрде көрсетілген шығармашылық. Араб тіліндегі قُرْآنٌ «декламация, рецитация» дегенді білдіреді және пергаментке жазылған Бастаушының уахысы болып табылады. «Сөздік» сөзі екі компонентті қамтиды: айтылған сөз және оның жазбаша бекітілуі. Калька емес, мағына."
+
+[meaningLabel]
+other = "Атау"
+
+[meaningTitle]
+other = "NAR-UQ не дегенді білдіреді?"
+
+[meaningKK]
+other = "«Нар» — күш пен қуаттың символы. «Ұқ» бұйрық райында — «түсін». Керісінше оқылады Құран."
+
+[meaningRU]
+other = "Даль сөздігі бойынша: ережелер мен заңдар жинағы; ант, өсиет; нұсқау, ереже. Керісінше — «Коран»."
+
+[meaningAR]
+other = "Араб сөзі. «Оқу, рецитация, декламация» деп аударылады. Біз мағыналық аударманы қолданамыз — Сөздік."
+
+[featuresLabel]
+other = "Бөлімдер"
+
+[featuresTitle]
+other = "Сайтта не табасыз"
+
+[featureTranslationTitle]
+other = "Аударма"
+
+[featureTranslationDesc]
+other = "Сөздіктің толық мәтіні. Онлайн оқу және тарау бойынша жүктеу."
+
+[featureArticlesTitle]
+other = "Мақалалар"
+
+[featureArticlesDesc]
+other = "150+ материал: Елшілер, Нұсқаулар, Ұғымдар."
+
+[featureUnderstandingTitle]
+other = "Түсіну"
+
+[featureUnderstandingDesc]
+other = "Сыртқы дереккөздерсіз оқу әдістемесі және негізгі ұғымдар."
+
+[featureLearningTitle]
+other = "Оқыту"
+
+[featureLearningDesc]
+other = "Өздігінен оқуға арналған араб тілі оқулығы мен сөздік."
+
+[featureOpen]
+other = "Ашу"
+
+[featureView]
+other = "Қарау"
+
+[featureLearn]
+other = "Үйрену"
+
+[featureStart]
+other = "Бастау"
+
+[ctaTitle]
+other = "Басқа көзқарасқа дайынсыз ба?"
+
+[ctaSubtitle]
+other = "Аудармадан бастаңыз немесе әдістемені зерттеңіз"
+
+[ctaButton]
+other = "Аударманы оқу"
+
+[contact]
+other = "Байланыс"

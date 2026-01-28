@@ -1,0 +1,18 @@
+<header>
+    <div class="header-inner">
+        <a href="/{{ .Lang }}/" class="logo">
+            <img class="logo-mark" src="/images/logo.png" alt="NQ">
+            <span class="logo-text">NAR-UQ</span>
+        </a>
+        <nav>
+            {{ range .Site.Menus.main }}
+            <a href="/{{ $.Lang }}{{ .URL }}">{{ .Name }}</a>
+            {{ end }}
+            <div class="lang-switcher">
+                {{ range .Site.Languages }}
+                <a href="/{{ .Lang }}/" {{ if eq $.Lang .Lang }}class="active"{{ end }}>{{ .LanguageName }}</a>
+                {{ end }}
+            </div>
+        </nav>
+    </div>
+</header>

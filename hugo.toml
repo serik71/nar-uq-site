@@ -1,0 +1,61 @@
+baseURL = "https://nar-uq.org/"
+languageCode = "ru"
+title = "NAR-UQ"
+defaultContentLanguage = "ru"
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.ru]
+    languageName = "RU"
+    weight = 1
+    title = "NAR-UQ — Словесность"
+  [languages.en]
+    languageName = "EN"
+    weight = 2
+    title = "NAR-UQ — Wordry"
+  [languages.kk]
+    languageName = "KK"
+    weight = 3
+    title = "NAR-UQ — Сөздік"
+
+[params]
+  description = "Словесность без посредников"
+  author = "Серик Болатжанович Рысжанов"
+  accentColor = "#1a6b6b"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "О проекте"
+    url = "/about/"
+    weight = 1
+  [[menu.main]]
+    identifier = "translation"
+    name = "Перевод"
+    url = "/translation/"
+    weight = 2
+  [[menu.main]]
+    identifier = "understanding"
+    name = "Понимание"
+    url = "/understanding/"
+    weight = 3
+  [[menu.main]]
+    identifier = "articles"
+    name = "Статьи"
+    url = "/articles/"
+    weight = 4
+  [[menu.main]]
+    identifier = "learning"
+    name = "Обучение"
+    url = "/learning/"
+    weight = 5
+  [[menu.main]]
+    identifier = "publications"
+    name = "Издания"
+    url = "/publications/"
+    weight = 6
+  [[menu.main]]
+    identifier = "contact"
+    name = "Контакты"
+    url = "/contact/"
+    weight = 7
