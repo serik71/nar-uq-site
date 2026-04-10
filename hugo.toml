@@ -23,39 +23,113 @@ defaultContentLanguageInSubdir = true
   author = "Серик Болатжанович Рысжанов"
   accentColor = "#1a6b6b"
 
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "О проекте"
-    url = "/about/"
-    weight = 1
-  [[menu.main]]
+[languages.ru.menu]
+  [[languages.ru.menu.main]]
     identifier = "translation"
     name = "Перевод"
-    url = "/translation/"
-    weight = 2
-  [[menu.main]]
-    identifier = "understanding"
-    name = "Понимание"
-    url = "/understanding/"
-    weight = 3
-  [[menu.main]]
+    url = "/ru/translation/"
+    weight = 1
+  [[languages.ru.menu.main]]
     identifier = "articles"
     name = "Статьи"
-    url = "/articles/"
-    weight = 4
-  [[menu.main]]
+    url = "/ru/articles/"
+    weight = 2
+  [[languages.ru.menu.main]]
+    identifier = "monographs"
+    name = "Монографии"
+    url = "/ru/monographs/"
+    weight = 3
+  [[languages.ru.menu.main]]
     identifier = "learning"
     name = "Обучение"
-    url = "/learning/"
+    url = "/ru/learning/"
+    weight = 4
+  [[languages.ru.menu.main]]
+    identifier = "analytics"
+    name = "Аналитика"
+    url = "/ru/analytics/"
     weight = 5
-  [[menu.main]]
-    identifier = "publications"
-    name = "Издания"
-    url = "/publications/"
+  [[languages.ru.menu.main]]
+    identifier = "distribution"
+    name = "Распространение"
+    url = "/ru/distribution/"
     weight = 6
-  [[menu.main]]
-    identifier = "contact"
-    name = "Контакты"
-    url = "/contact/"
+  [[languages.ru.menu.main]]
+    identifier = "about"
+    name = "О проекте"
+    url = "/ru/about/"
+    weight = 7
+
+[languages.en.menu]
+  [[languages.en.menu.main]]
+    identifier = "translation"
+    name = "Translation"
+    url = "/en/translation/"
+    weight = 1
+  [[languages.en.menu.main]]
+    identifier = "articles"
+    name = "Articles"
+    url = "/en/articles/"
+    weight = 2
+  [[languages.en.menu.main]]
+    identifier = "monographs"
+    name = "Monographs"
+    url = "/en/monographs/"
+    weight = 3
+  [[languages.en.menu.main]]
+    identifier = "learning"
+    name = "Learning"
+    url = "/en/learning/"
+    weight = 4
+  [[languages.en.menu.main]]
+    identifier = "analytics"
+    name = "Analytics"
+    url = "/en/analytics/"
+    weight = 5
+  [[languages.en.menu.main]]
+    identifier = "distribution"
+    name = "Distribution"
+    url = "/en/distribution/"
+    weight = 6
+  [[languages.en.menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/en/about/"
+    weight = 7
+
+[languages.kk.menu]
+  [[languages.kk.menu.main]]
+    identifier = "translation"
+    name = "Аударма"
+    url = "/kk/translation/"
+    weight = 1
+  [[languages.kk.menu.main]]
+    identifier = "articles"
+    name = "Мақалалар"
+    url = "/kk/articles/"
+    weight = 2
+  [[languages.kk.menu.main]]
+    identifier = "monographs"
+    name = "Монографиялар"
+    url = "/kk/monographs/"
+    weight = 3
+  [[languages.kk.menu.main]]
+    identifier = "learning"
+    name = "Оқу"
+    url = "/kk/learning/"
+    weight = 4
+  [[languages.kk.menu.main]]
+    identifier = "analytics"
+    name = "Аналитика"
+    url = "/kk/analytics/"
+    weight = 5
+  [[languages.kk.menu.main]]
+    identifier = "distribution"
+    name = "Тарату"
+    url = "/kk/distribution/"
+    weight = 6
+  [[languages.kk.menu.main]]
+    identifier = "about"
+    name = "Жоба туралы"
+    url = "/kk/about/"
     weight = 7
