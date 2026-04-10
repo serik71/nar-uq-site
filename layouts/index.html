@@ -18,11 +18,13 @@
                 <span class="logo-text">NAR-UQ</span>
             </a>
             <nav>
-                <a href="/{{ .Lang }}/about/">{{ i18n "menuAbout" | default "О проекте" }}</a>
                 <a href="/{{ .Lang }}/translation/">{{ i18n "menuTranslation" | default "Перевод" }}</a>
-                <a href="/{{ .Lang }}/understanding/">{{ i18n "menuUnderstanding" | default "Понимание" }}</a>
                 <a href="/{{ .Lang }}/articles/">{{ i18n "menuArticles" | default "Статьи" }}</a>
-                <a href="/{{ .Lang }}/channels/">{{ i18n "menuChannels" | default "Каналы" }}</a>
+                <a href="/{{ .Lang }}/monographs/">{{ i18n "menuMonographs" | default "Монографии" }}</a>
+                <a href="/{{ .Lang }}/learning/">{{ i18n "menuLearning" | default "Обучение" }}</a>
+                <a href="/{{ .Lang }}/analytics/">{{ i18n "menuAnalytics" | default "Аналитика" }}</a>
+                <a href="/{{ .Lang }}/distribution/">{{ i18n "menuDistribution" | default "Распространение" }}</a>
+                <a href="/{{ .Lang }}/about/">{{ i18n "menuAbout" | default "О проекте" }}</a>
                 <div class="lang-switcher">
                     <a href="/ru/" {{ if eq .Lang "ru" }}class="active"{{ end }}>RU</a>
                     <a href="/en/" {{ if eq .Lang "en" }}class="active"{{ end }}>EN</a>
@@ -79,8 +81,8 @@
             <div class="manifesto-label">{{ i18n "manifestoLabel" | default "Позиция проекта" }}</div>
             <h2 class="manifesto-title">{{ i18n "manifestoTitle" | default "Доверие первоисточнику" }}</h2>
             <p class="manifesto-text">
-                {{ i18n "manifestoText1" | default "Лишь Творец объективен, а люди субъективны." }} <strong>{{ i18n "manifestoStrong1" | default "1400 лет традиции" }}</strong> {{ i18n "manifestoText2" | default "увели от откровения: «учёные» критикуют «учёных», школы противоречат школам — но все ссылаются на одну и ту же базу преданий." }}<br><br>
-                {{ i18n "manifestoText3" | default "Этот проект предлагает" }} <strong>{{ i18n "manifestoStrong2" | default "альтернативу" }}</strong>{{ i18n "manifestoText4" | default ": понимание Словесности из самой Словесности. Без преданий. Без школ. Без посредников между человеком и Словом Творца." }}
+                {{ i18n "manifestoText1" | default "Лишь Творец объективен, а люди субъективны." }} <strong>{{ i18n "manifestoStrong1" | default "1400 лет традиции" }}</strong> {{ i18n "manifestoText2" | default "увели от откровения." }}<br><br>
+                {{ i18n "manifestoText3" | default "Этот проект предлагает" }} <strong>{{ i18n "manifestoStrong2" | default "альтернативу" }}</strong>{{ i18n "manifestoText4" | default ": понимание Словесности из самой Словесности." }}
             </p>
         </div>
     </section>
@@ -89,7 +91,7 @@
         <div class="wordry-inner">
             <div class="wordry-label">{{ i18n "wordryLabel" | default "Ключевой термин" }}</div>
             <div class="wordry-term">{{ i18n "wordryTerm" | default "Словесность" }}</div>
-            <p class="wordry-definition">{{ i18n "wordryDefinition" | default "Творчество, выраженное устно и письменно. Арабское قُرْآنٌ означает «декламация, рецитация» и является откровением Зачинателя, записанным на пергаменте. Слово «словесность» вмещает оба компонента: звучащее слово и его письменную фиксацию. Не калька, а смысл." }}</p>
+            <p class="wordry-definition">{{ i18n "wordryDefinition" | default "Творчество, выраженное устно и письменно." }}</p>
         </div>
     </section>
 
@@ -103,17 +105,17 @@
                 <div class="meaning-card">
                     <div class="meaning-lang">Қазақша</div>
                     <div class="meaning-word">Нар-Ұқ</div>
-                    <p class="meaning-desc">{{ i18n "meaningKK" | default "«Нар» — символ силы и мощи. «Ұқ» в повелительном наклонении — «понимай». Наоборот читается как Құран." }}</p>
+                    <p class="meaning-desc">{{ i18n "meaningKK" | default "«Нар» — символ силы и мощи. «Ұқ» — «понимай»." }}</p>
                 </div>
                 <div class="meaning-card">
                     <div class="meaning-lang">Русский</div>
                     <div class="meaning-word">Нарок</div>
-                    <p class="meaning-desc">{{ i18n "meaningRU" | default "По словарю Даля: свод правил и законов; обет, завет; предписание, правило. Наоборот — «Коран»." }}</p>
+                    <p class="meaning-desc">{{ i18n "meaningRU" | default "По словарю Даля: свод правил и законов; обет, завет; предписание." }}</p>
                 </div>
                 <div class="meaning-card">
                     <div class="meaning-lang">العربية</div>
                     <div class="meaning-word">قُرْآنٌ</div>
-                    <p class="meaning-desc">{{ i18n "meaningAR" | default "Арабское слово. Переводится как «чтение, рецитация, декламация». Мы используем смысловой перевод — Словесность." }}</p>
+                    <p class="meaning-desc">{{ i18n "meaningAR" | default "Арабское слово. Переводится как «чтение, рецитация, декламация»." }}</p>
                 </div>
             </div>
         </div>
@@ -135,20 +137,32 @@
                 <a href="/{{ .Lang }}/articles/" class="feature-card">
                     <div class="feature-icon">📑</div>
                     <div class="feature-title">{{ i18n "featureArticlesTitle" | default "Статьи" }}</div>
-                    <p class="feature-desc">{{ i18n "featureArticlesDesc" | default "150+ материалов по темам: Посланники, Предписания, Понятия." }}</p>
+                    <p class="feature-desc">{{ i18n "featureArticlesDesc" | default "150+ материалов по темам." }}</p>
                     <span class="feature-arrow">{{ i18n "featureView" | default "Смотреть" }} →</span>
                 </a>
-                <a href="/{{ .Lang }}/understanding/" class="feature-card">
-                    <div class="feature-icon">🔍</div>
-                    <div class="feature-title">{{ i18n "featureUnderstandingTitle" | default "Понимание" }}</div>
-                    <p class="feature-desc">{{ i18n "featureUnderstandingDesc" | default "Методология чтения и ключевые понятия без внешних источников." }}</p>
-                    <span class="feature-arrow">{{ i18n "featureLearn" | default "Изучить" }} →</span>
+                <a href="/{{ .Lang }}/monographs/" class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <div class="feature-title">{{ i18n "menuMonographs" | default "Монографии" }}</div>
+                    <p class="feature-desc">{{ i18n "featureMonographsDesc" | default "Научные монографии по исламоведению и коранистике." }}</p>
+                    <span class="feature-arrow">{{ i18n "featureOpen" | default "Открыть" }} →</span>
                 </a>
                 <a href="/{{ .Lang }}/learning/" class="feature-card">
                     <div class="feature-icon">🎓</div>
                     <div class="feature-title">{{ i18n "featureLearningTitle" | default "Обучение" }}</div>
                     <p class="feature-desc">{{ i18n "featureLearningDesc" | default "Учебник арабского языка и словарь для самостоятельного изучения." }}</p>
                     <span class="feature-arrow">{{ i18n "featureStart" | default "Начать" }} →</span>
+                </a>
+                <a href="/{{ .Lang }}/analytics/" class="feature-card">
+                    <div class="feature-icon">🔬</div>
+                    <div class="feature-title">{{ i18n "menuAnalytics" | default "Аналитика" }}</div>
+                    <p class="feature-desc">{{ i18n "featureAnalyticsDesc" | default "Исследования и аналитические материалы." }}</p>
+                    <span class="feature-arrow">{{ i18n "featureView" | default "Смотреть" }} →</span>
+                </a>
+                <a href="/{{ .Lang }}/distribution/" class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <div class="feature-title">{{ i18n "menuDistribution" | default "Распространение" }}</div>
+                    <p class="feature-desc">{{ i18n "featureDistributionDesc" | default "Каналы распространения и официальные ресурсы проекта." }}</p>
+                    <span class="feature-arrow">{{ i18n "featureOpen" | default "Открыть" }} →</span>
                 </a>
             </div>
         </div>
