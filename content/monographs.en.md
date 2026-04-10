@@ -1,0 +1,12 @@
+---
+title: "Monographs"
+---
+
+<div class="monographs-grid">
+<div class="mono-card"><div class="mono-icon">📖</div><div class="mono-title">Formation of the Islamic Normative System in the 7th-11th Centuries</div><div class="mono-subtitle">A Prosopographic Analysis of the Intellectual Elite</div><p class="mono-desc">Arabs constitute only 19.6% of codifiers. Prosopographic analysis of 97 Sunni and ~27 Shia verified figures.</p><a href="/formirovanie islamskoy normativnoy sistemy.pdf" class="mono-btn" download>Download PDF</a></div>
+<div class="mono-card"><div class="mono-icon">📖</div><div class="mono-title">Hadith Studies as an Institution of Tradition</div><div class="mono-subtitle">Epistemic Limitations of the System</div><p class="mono-desc">A study of the epistemic limitations of hadith studies as a system of tradition verification.</p><a href="/hadisovedeniye kak institut predaniya.pdf" class="mono-btn" download>Download PDF</a></div>
+<div class="mono-card"><div class="mono-icon">📖</div><div class="mono-title">The Textological Status of the Quran</div><div class="mono-subtitle">Self-referential Indications as a Criterion for Identifying the Authentic Mushaf</div><p class="mono-desc">A methodologically new approach to dating the Quranic text.</p><a href="/tekstologicheskiy status korana.pdf" class="mono-btn" download>Download PDF</a></div>
+<div class="mono-card"><div class="mono-icon">📖</div><div class="mono-title">The Particle إِلَّا in the Quran</div><div class="mono-subtitle">Corpus Analysis of 664 Occurrences</div><p class="mono-desc">Complete corpus analysis of all occurrences of the particle in the Quran.</p><a href="/chastitsa illa v korane.pdf" class="mono-btn" download>Download PDF</a></div>
+<div class="mono-card"><div class="mono-icon">📖</div><div class="mono-title">The Proto-Semitic Root ʔil</div><div class="mono-subtitle">A Lexicographic Study</div><p class="mono-desc">Study of the proto-Semitic root and its derivatives in Semitic languages.</p><a href="/proto semitskiy koren ill.pdf" class="mono-btn" download>Download PDF</a></div>
+<div class="mono-card"><div class="mono-icon">📖</div><div class="mono-title">Ontology of Nothing</div><div class="mono-subtitle">Axiomatic System A1-A15</div><p class="mono-desc">Philosophical monograph. The axiomatic system A1-A15 underlying the Arbitrium platform.</p><a href="/ontologiya nichto.pdf" class="mono-btn" download>Download PDF</a></div>
+</div>
