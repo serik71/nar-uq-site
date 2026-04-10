@@ -1,0 +1,61 @@
+{{ define "main" }}
+<section class="monographs">
+  <div class="monographs-inner">
+    <div class="section-label">{{ i18n "monoLabel" | default "Научные труды" }}</div>
+    <h1 class="section-title">{{ i18n "monoTitle" | default "Монографии" }}</h1>
+    <p class="monographs-subtitle">{{ i18n "monoAuthor" | default "Серик Болатжанович Рысжанов. Астана, Фонд NAR-UQ, 2026." }}</p>
+
+    <div class="monographs-grid">
+
+      <div class="mono-card">
+        <div class="mono-icon">📖</div>
+        <div class="mono-title">{{ i18n "mono1title" | default "Формирование исламской нормативной системы в VII–XI вв." }}</div>
+        <div class="mono-subtitle">{{ i18n "mono1sub" | default "Просопографический анализ интеллектуальной элиты" }}</div>
+        <p class="mono-desc">{{ i18n "mono1desc" | default "Кто написал исламскую нормативную систему? Просопографический анализ 97 суннитских и ~27 шиитских верифицированных фигур. Центральный вывод: арабы составляют лишь 19,6% кодификаторов." }}</p>
+        <a href="/formirovanie islamskoy normativnoy sistemy.pdf" class="mono-btn" download>{{ i18n "monoDownload" | default "Скачать PDF" }}</a>
+      </div>
+
+      <div class="mono-card">
+        <div class="mono-icon">📖</div>
+        <div class="mono-title">{{ i18n "mono2title" | default "Хадисоведение как институт предания" }}</div>
+        <div class="mono-subtitle">{{ i18n "mono2sub" | default "Эпистемические ограничения системы" }}</div>
+        <p class="mono-desc">{{ i18n "mono2desc" | default "Исследование эпистемических ограничений хадисоведения как системы верификации предания." }}</p>
+        <a href="/hadisovedeniye kak institut predaniya.pdf" class="mono-btn" download>{{ i18n "monoDownload" | default "Скачать PDF" }}</a>
+      </div>
+
+      <div class="mono-card">
+        <div class="mono-icon">📖</div>
+        <div class="mono-title">{{ i18n "mono3title" | default "Текстологический статус Корана" }}</div>
+        <div class="mono-subtitle">{{ i18n "mono3sub" | default "Самореферентные указания как критерий идентификации аутентичного мусхафа" }}</div>
+        <p class="mono-desc">{{ i18n "mono3desc" | default "Методологически новый подход к датировке коранического текста." }}</p>
+        <a href="/tekstologicheskiy status korana.pdf" class="mono-btn" download>{{ i18n "monoDownload" | default "Скачать PDF" }}</a>
+      </div>
+
+      <div class="mono-card">
+        <div class="mono-icon">📖</div>
+        <div class="mono-title">{{ i18n "mono4title" | default "Частица إِلَّا в Коране" }}</div>
+        <div class="mono-subtitle">{{ i18n "mono4sub" | default "Корпусный анализ 664 вхождений" }}</div>
+        <p class="mono-desc">{{ i18n "mono4desc" | default "Полный корпусный анализ всех вхождений частицы إِلَّا в Коране. Переводческие импликации для изоморфного перевода." }}</p>
+        <a href="/chastitsa illa v korane.pdf" class="mono-btn" download>{{ i18n "monoDownload" | default "Скачать PDF" }}</a>
+      </div>
+
+      <div class="mono-card">
+        <div class="mono-icon">📖</div>
+        <div class="mono-title">{{ i18n "mono5title" | default "Прото-семитский корень ʔil" }}</div>
+        <div class="mono-subtitle">{{ i18n "mono5sub" | default "Лексикографическое исследование" }}</div>
+        <p class="mono-desc">{{ i18n "mono5desc" | default "Исследование прото-семитского корня ʔil и его производных в семитских языках." }}</p>
+        <a href="/proto semitskiy koren ill.pdf" class="mono-btn" download>{{ i18n "monoDownload" | default "Скачать PDF" }}</a>
+      </div>
+
+      <div class="mono-card">
+        <div class="mono-icon">📖</div>
+        <div class="mono-title">{{ i18n "mono6title" | default "Онтология Ничто" }}</div>
+        <div class="mono-subtitle">{{ i18n "mono6sub" | default "Аксиоматическая система A1–A15" }}</div>
+        <p class="mono-desc">{{ i18n "mono6desc" | default "Философская монография. Аксиоматическая система A1–A15, лежащая в основе платформы Arbitrium." }}</p>
+        <a href="/ontologiya nichto.pdf" class="mono-btn" download>{{ i18n "monoDownload" | default "Скачать PDF" }}</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+{{ end }}
