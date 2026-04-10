@@ -150,3 +150,32 @@ other = "Байланыс"
 
 [menuChannels]
 other = "Арналар"
+[menuTranslation]
+other = "Аударма"
+
+[menuArticles]
+other = "Мақалалар"
+
+[menuMonographs]
+other = "Монографиялар"
+
+[menuLearning]
+other = "Оқу"
+
+[menuAnalytics]
+other = "Аналитика"
+
+[menuDistribution]
+other = "Тарату"
+
+[menuAbout]
+other = "Жоба туралы"
+
+[featureMonographsDesc]
+other = "Ислам және Құран зерттеулері бойынша ғылыми монографиялар."
+
+[featureAnalyticsDesc]
+other = "Зерттеу және аналитикалық материалдар."
+
+[featureDistributionDesc]
+other = "Жобаның таралу арналары және ресми ресурстары."
