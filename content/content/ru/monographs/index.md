@@ -1,4 +1,3 @@
 ---
 title: "Монографии"
-layout: "monographs"
 ---
