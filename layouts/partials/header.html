@@ -1,7 +1,7 @@
 <header>
     <div class="header-inner">
         <a href="/{{ .Lang }}/" class="logo">
-            <img class="logo-mark" src="/images/logo.png" alt="NQ">
+            <img class="logo-mark" src="/logo.png" alt="NQ">
             <span class="logo-text">NAR-UQ</span>
         </a>
         <nav>
@@ -13,9 +13,9 @@
             <a href="/{{ .Lang }}/distribution/">{{ i18n "menuDistribution" | default "Распространение" }}</a>
             <a href="/{{ .Lang }}/about/">{{ i18n "menuAbout" | default "О проекте" }}</a>
             <div class="lang-switcher">
-                {{ range .Site.Languages }}
-                <a href="/{{ .Lang }}/" {{ if eq $.Lang .Lang }}class="active"{{ end }}>{{ .LanguageName }}</a>
-                {{ end }}
+                <a href="/ru/" {{ if eq .Lang "ru" }}class="active"{{ end }}>RU</a>
+                <a href="/en/" {{ if eq .Lang "en" }}class="active"{{ end }}>EN</a>
+                <a href="/kk/" {{ if eq .Lang "kk" }}class="active"{{ end }}>KK</a>
             </div>
         </nav>
     </div>

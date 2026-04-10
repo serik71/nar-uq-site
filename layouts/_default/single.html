@@ -1,6 +1,8 @@
 {{ define "main" }}
 <article style="padding: 140px 40px 80px; max-width: 1200px; margin: 0 auto;">
-<h1 style="font-family: 'Playfair Display',serif; font-size: 3rem; color: #1a6b6b;">{{ .Title }}</h1>
-<div style="font-size: 1.1rem; line-height: 1.9;">{{ .Content }}</div>
+    <h1 style="font-family: 'Playfair Display',serif; font-size: 3rem; color: #1a6b6b; margin-bottom: 2rem;">{{ .Title }}</h1>
+    <div style="font-size: 1.1rem; line-height: 1.9; color: #343a40;">
+        {{ .Content }}
+    </div>
 </article>
 {{ end }}
