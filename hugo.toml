@@ -1,131 +1,18 @@
-baseURL = "https://nar-uq.org/"
-languageCode = "ru"
-title = "NAR-UQ"
-defaultContentLanguage = "ru"
-defaultContentLanguageInSubdir = true
-
-[languages]
-  [languages.ru]
-    languageName = "RU"
-    weight = 1
-    title = "NAR-UQ — Словесность"
-    [[languages.ru.menu.main]]
-      identifier = "translation"
-      name = "Перевод"
-      url = "/translation/"
-      weight = 1
-    [[languages.ru.menu.main]]
-      identifier = "articles"
-      name = "Статьи"
-      url = "/articles/"
-      weight = 2
-    [[languages.ru.menu.main]]
-      identifier = "monographs"
-      name = "Монографии"
-      url = "/monographs/"
-      weight = 3
-    [[languages.ru.menu.main]]
-      identifier = "learning"
-      name = "Обучение"
-      url = "/learning/"
-      weight = 4
-    [[languages.ru.menu.main]]
-      identifier = "analytics"
-      name = "Аналитика"
-      url = "/analytics/"
-      weight = 5
-    [[languages.ru.menu.main]]
-      identifier = "distribution"
-      name = "Распространение"
-      url = "/distribution/"
-      weight = 6
-    [[languages.ru.menu.main]]
-      identifier = "about"
-      name = "О проекте"
-      url = "/about/"
-      weight = 7
-
-  [languages.en]
-    languageName = "EN"
-    weight = 2
-    title = "NAR-UQ — Wordry"
-    [[languages.en.menu.main]]
-      identifier = "translation"
-      name = "Translation"
-      url = "/translation/"
-      weight = 1
-    [[languages.en.menu.main]]
-      identifier = "articles"
-      name = "Articles"
-      url = "/articles/"
-      weight = 2
-    [[languages.en.menu.main]]
-      identifier = "monographs"
-      name = "Monographs"
-      url = "/monographs/"
-      weight = 3
-    [[languages.en.menu.main]]
-      identifier = "learning"
-      name = "Learning"
-      url = "/learning/"
-      weight = 4
-    [[languages.en.menu.main]]
-      identifier = "analytics"
-      name = "Analytics"
-      url = "/analytics/"
-      weight = 5
-    [[languages.en.menu.main]]
-      identifier = "distribution"
-      name = "Distribution"
-      url = "/distribution/"
-      weight = 6
-    [[languages.en.menu.main]]
-      identifier = "about"
-      name = "About"
-      url = "/about/"
-      weight = 7
-
-  [languages.kk]
-    languageName = "KK"
-    weight = 3
-    title = "NAR-UQ — Сөздік"
-    [[languages.kk.menu.main]]
-      identifier = "translation"
-      name = "Аударма"
-      url = "/translation/"
-      weight = 1
-    [[languages.kk.menu.main]]
-      identifier = "articles"
-      name = "Мақалалар"
-      url = "/articles/"
-      weight = 2
-    [[languages.kk.menu.main]]
-      identifier = "monographs"
-      name = "Монографиялар"
-      url = "/monographs/"
-      weight = 3
-    [[languages.kk.menu.main]]
-      identifier = "learning"
-      name = "Оқу"
-      url = "/learning/"
-      weight = 4
-    [[languages.kk.menu.main]]
-      identifier = "analytics"
-      name = "Аналитика"
-      url = "/analytics/"
-      weight = 5
-    [[languages.kk.menu.main]]
-      identifier = "distribution"
-      name = "Тарату"
-      url = "/distribution/"
-      weight = 6
-    [[languages.kk.menu.main]]
-      identifier = "about"
-      name = "Жоба туралы"
-      url = "/about/"
-      weight = 7
-
-[params]
-  description = "Словесность без посредников"
-  author = "Серик Болатжанович Рысжанов"
-  accentColor = "#1a6b6b"
+<header>
+    <div class="header-inner">
+        <a href="/{{ .Lang }}/" class="logo">
+            <img class="logo-mark" src="/images/logo.png" alt="NQ">
+            <span class="logo-text">NAR-UQ</span>
+        </a>
+        <nav>
+            {{ range .Site.Menus.main }}
+            <a href="{{ .URL }}">{{ .Name }}</a>
+            {{ end }}
+            <div class="lang-switcher">
+                {{ range .Site.Languages }}
+                <a href="/{{ .Lang }}/" {{ if eq $.Lang .Lang }}class="active"{{ end }}>{{ .LanguageName }}</a>
+                {{ end }}
+            </div>
+        </nav>
+    </div>
+</header>
