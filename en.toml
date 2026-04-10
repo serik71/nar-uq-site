@@ -150,3 +150,32 @@ other = "Contact"
 
 [menuChannels]
 other = "Channels"
+[menuTranslation]
+other = "Translation"
+
+[menuArticles]
+other = "Articles"
+
+[menuMonographs]
+other = "Monographs"
+
+[menuLearning]
+other = "Learning"
+
+[menuAnalytics]
+other = "Analytics"
+
+[menuDistribution]
+other = "Distribution"
+
+[menuAbout]
+other = "About"
+
+[featureMonographsDesc]
+other = "Academic monographs on Islamic studies and Quranic studies."
+
+[featureAnalyticsDesc]
+other = "Research and analytical materials."
+
+[featureDistributionDesc]
+other = "Distribution channels and official project resources."
