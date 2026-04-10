@@ -1,18 +1,61 @@
-<header>
-    <div class="header-inner">
-        <a href="/{{ .Lang }}/" class="logo">
-            <img class="logo-mark" src="/images/logo.png" alt="NQ">
-            <span class="logo-text">NAR-UQ</span>
-        </a>
-        <nav>
-            {{ range .Site.Menus.main }}
-            <a href="{{ .URL }}">{{ .Name }}</a>
-            {{ end }}
-            <div class="lang-switcher">
-                {{ range .Site.Languages }}
-                <a href="/{{ .Lang }}/" {{ if eq $.Lang .Lang }}class="active"{{ end }}>{{ .LanguageName }}</a>
-                {{ end }}
-            </div>
-        </nav>
-    </div>
-</header>
+baseURL = "https://nar-uq.org/"
+languageCode = "ru"
+title = "NAR-UQ"
+defaultContentLanguage = "ru"
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.ru]
+    languageName = "RU"
+    weight = 1
+    title = "NAR-UQ — Словесность"
+  [languages.en]
+    languageName = "EN"
+    weight = 2
+    title = "NAR-UQ — Wordry"
+  [languages.kk]
+    languageName = "KK"
+    weight = 3
+    title = "NAR-UQ — Сөздік"
+
+[params]
+  description = "Словесность без посредников"
+  author = "Серик Болатжанович Рысжанов"
+  accentColor = "#1a6b6b"
+
+[menu]
+  [[menu.main]]
+    identifier = "translation"
+    name = "Перевод"
+    url = "/translation/"
+    weight = 1
+  [[menu.main]]
+    identifier = "articles"
+    name = "Статьи"
+    url = "/articles/"
+    weight = 2
+  [[menu.main]]
+    identifier = "monographs"
+    name = "Монографии"
+    url = "/monographs/"
+    weight = 3
+  [[menu.main]]
+    identifier = "learning"
+    name = "Обучение"
+    url = "/learning/"
+    weight = 4
+  [[menu.main]]
+    identifier = "analytics"
+    name = "Аналитика"
+    url = "/analytics/"
+    weight = 5
+  [[menu.main]]
+    identifier = "distribution"
+    name = "Распространение"
+    url = "/distribution/"
+    weight = 6
+  [[menu.main]]
+    identifier = "about"
+    name = "О проекте"
+    url = "/about/"
+    weight = 7
