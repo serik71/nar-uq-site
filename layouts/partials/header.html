@@ -1,0 +1,22 @@
+<header>
+    <div class="header-inner">
+        <a href="/{{ .Lang }}/" class="logo">
+            <img class="logo-mark" src="/images/logo.png" alt="NQ">
+            <span class="logo-text">NAR-UQ</span>
+        </a>
+        <nav>
+            <a href="/{{ .Lang }}/translation/">{{ i18n "menuTranslation" | default "Перевод" }}</a>
+            <a href="/{{ .Lang }}/articles/">{{ i18n "menuArticles" | default "Статьи" }}</a>
+            <a href="/{{ .Lang }}/monographs/">{{ i18n "menuMonographs" | default "Монографии" }}</a>
+            <a href="/{{ .Lang }}/learning/">{{ i18n "menuLearning" | default "Обучение" }}</a>
+            <a href="/{{ .Lang }}/analytics/">{{ i18n "menuAnalytics" | default "Аналитика" }}</a>
+            <a href="/{{ .Lang }}/distribution/">{{ i18n "menuDistribution" | default "Распространение" }}</a>
+            <a href="/{{ .Lang }}/about/">{{ i18n "menuAbout" | default "О проекте" }}</a>
+            <div class="lang-switcher">
+                {{ range .Site.Languages }}
+                <a href="/{{ .Lang }}/" {{ if eq $.Lang .Lang }}class="active"{{ end }}>{{ .LanguageName }}</a>
+                {{ end }}
+            </div>
+        </nav>
+    </div>
+</header>
