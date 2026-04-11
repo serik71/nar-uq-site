@@ -179,3 +179,12 @@ other = "Research and analytical materials."
 
 [featureDistributionDesc]
 other = "Distribution channels and official project resources."
+
+[footerAuthor]
+other = "Serik Bolatjanovich Ryszhanov"
+[footerOrg]
+other = "NAR-UQ Foundation. Astana, Kazakhstan."
+[footerLicense]
+other = "Materials are protected under the license"
+[footerLicenseDesc]
+other = "Commercial use and derivative works are prohibited without written permission of the author."
