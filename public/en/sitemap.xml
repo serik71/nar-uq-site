@@ -81,5 +81,22 @@
                 hreflang="en"
                 href="https://nar-uq.org/en/tags/"
                 />
+  </url><url>
+    <loc>https://nar-uq.org/en/topics/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://nar-uq.org/ru/topics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kk"
+                href="https://nar-uq.org/kk/topics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://nar-uq.org/en/topics/"
+                />
   </url>
 </urlset>

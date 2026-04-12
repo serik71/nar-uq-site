@@ -621,3 +621,33 @@ footer {
     .monographs-grid { grid-template-columns: 1fr; }
     .monographs { padding: 120px 20px 60px; }
 }
+
+/* Topics Grid */
+.topics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem 0;
+}
+.topic-card {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.topic-card:hover {
+    border-color: #1a6b6b;
+    box-shadow: 0 4px 12px rgba(26,107,107,0.1);
+}
+.topic-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    color: #1a6b6b;
+    margin-bottom: 0.5rem;
+}
+.topic-count {
+    font-size: 0.9rem;
+    color: #999;
+}
