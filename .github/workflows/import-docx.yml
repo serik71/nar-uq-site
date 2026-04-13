@@ -1,0 +1,32 @@
+name: Import DOCX to Hugo
+
+on:
+  push:
+    paths:
+      - 'incoming/**/*.docx'
+  workflow_dispatch:
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install pandoc
+        run: sudo apt-get install -y pandoc
+
+      - name: Install python deps
+        run: pip install python-docx
+
+      - name: Run import script
+        run: python3 scripts/import_docx.py
+
+      - name: Commit results
+        run: |
+          git config user.name "NAR-UQ Bot"
+          git config user.email "bot@nar-uq.org"
+          git add content/topics/
+          git diff --cached --quiet || git commit -m "Auto-import DOCX articles"
+          git push
