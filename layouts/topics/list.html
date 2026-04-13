@@ -1,16 +1,6 @@
 {{ define "main" }}
 <section style="padding: 140px 40px 80px; max-width: 1200px; margin: 0 auto;">
     <h1 style="font-family: 'Playfair Display',serif; font-size: 3rem; color: #1a6b6b; margin-bottom: 1rem;">{{ .Title }}</h1>
-    <p style="font-size: 1.1rem; color: #666; margin-bottom: 3rem;">{{ .Description }}</p>
-    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem;">
-        {{ range .Pages }}
-        <a href="{{ .Permalink }}" style="display: block; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 1.5rem; text-decoration: none; transition: all 0.2s;">
-            <h2 style="font-family: 'Playfair Display',serif; font-size: 1.4rem; color: #1a6b6b; margin-bottom: 0.5rem;">{{ .Title }}</h2>
-            {{ with .Params.articles }}
-            <p style="font-size: 0.9rem; color: #999;">{{ len . }} {{ i18n "articles" | default "статей" }}</p>
-            {{ end }}
-        </a>
-        {{ end }}
-    </div>
+    {{ .Content }}
 </section>
 {{ end }}
