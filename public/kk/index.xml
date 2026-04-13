@@ -1,25 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>NAR-UQ — Сөздік</title>
-    <link>https://nar-uq.org/kk/</link>
-    <description>Recent content on NAR-UQ — Сөздік</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>kk</language>
-    <atom:link href="https://nar-uq.org/kk/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Ресми арналар</title>
-      <link>https://nar-uq.org/kk/channels/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nar-uq.org/kk/channels/</guid>
-      <description>Верификацияланған қатысу Төменде көрсетілген аккаунттар мен платформалар Серік Рысжанов пен NAR-UQ жобасының жалғыз ресми арналары болып табылады. Бұл атауды пайдаланатын кез келген басқа аккаунттардың авторға қатысы жоқ.&#xA;Сайттар Arbitrium жүйесі: distinctio.org Құран жобасы: nar-uq.org Академиялық профильдер ORCID: 0009-0005-6989-6516 ResearchGate: Serik Ryszhanov Academia.edu: Serik Ryszhanov PhilPapers: Serik Ryszhanov Әлеуметтік желілер YouTube: Serik Ryszhanov Instagram: @serikryszhanov TikTok: @serikryszhanov Facebook: Serik Ryszhanov Telegram: @serikryszhanov ВКонтакте: Serik Ryszhanov X (Twitter): @serikryszhanov Байланыс Email: s.ryszhanov@nar-uq.org</description>
-    </item>
-    <item>
-      <title>Тақырыптар</title>
-      <link>https://nar-uq.org/kk/topics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nar-uq.org/kk/topics/</guid>
-      <description> Бастаушы Сөздік Келісім Уақыт Белгілер Билік Сөз Көзге көрінбейтін Адам Қызмет Отбасы Рәсімдер Қоғам Экономика Шектеулер Геосаясат Хабаршылар Өлім және одан кейін </description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NAR-UQ — Сөздік</title><link>https://nar-uq.org/kk/</link><description>Recent content on NAR-UQ — Сөздік</description><generator>Hugo -- gohugo.io</generator><language>kk</language><atom:link href="https://nar-uq.org/kk/index.xml" rel="self" type="application/rss+xml"/><item><title>Ресми арналар</title><link>https://nar-uq.org/kk/channels/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nar-uq.org/kk/channels/</guid><description>Верификацияланған қатысу Төменде көрсетілген аккаунттар мен платформалар Серік Рысжанов пен NAR-UQ жобасының жалғыз ресми арналары болып табылады. Бұл атауды пайдаланатын кез келген басқа аккаунттардың авторға қатысы жоқ.
+Сайттар Arbitrium жүйесі: distinctio.org Құран жобасы: nar-uq.org Академиялық профильдер ORCID: 0009-0005-6989-6516 ResearchGate: Serik Ryszhanov Academia.edu: Serik Ryszhanov PhilPapers: Serik Ryszhanov Әлеуметтік желілер YouTube: Serik Ryszhanov Instagram: @serikryszhanov TikTok: @serikryszhanov Facebook: Serik Ryszhanov Telegram: @serikryszhanov ВКонтакте: Serik Ryszhanov X (Twitter): @serikryszhanov Байланыс Email: s.ryszhanov@nar-uq.org</description></item><item><title>Тақырыптар</title><link>https://nar-uq.org/kk/topics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nar-uq.org/kk/topics/</guid><description> Бастаушы Сөздік Келісім Уақыт Белгілер Билік Сөз Көзге көрінбейтін Адам Қызмет Отбасы Рәсімдер Қоғам Экономика Шектеулер Геосаясат Хабаршылар Өлім және одан кейін</description></item></channel></rss>
