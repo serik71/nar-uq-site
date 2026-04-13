@@ -1,13 +1,13 @@
 {{ define "main" }}
-<section style="padding: 140px 40px 80px; max-width: 900px; margin: 0 auto;">
-    <a href="../" style="font-size: 0.9rem; color: #1a6b6b; text-decoration: none; display: inline-block; margin-bottom: 2rem;">← {{ i18n "topics" | default "Темы" }}</a>
-    <h1 style="font-family: 'Playfair Display',serif; font-size: 3rem; color: #1a6b6b; margin-bottom: 2rem;">{{ .Title }}</h1>
-    {{ with .Params.articles }}
-    <ul style="list-style: none; padding: 0; margin: 0;">
-        {{ range . }}
-        <li style="border-bottom: 1px solid #e9ecef; padding: 1rem 0; font-size: 1.1rem; color: #343a40;">{{ . }}</li>
+<section style="padding: 140px 40px 80px; max-width: 1200px; margin: 0 auto;">
+    <a href="../" style="font-size: 0.9rem; color: #1a6b6b; text-decoration: none; display: inline-block; margin-bottom: 2rem;">← Темы</a>
+    <h1 style="font-family: 'Playfair Display',serif; font-size: 3rem; color: #1a6b6b; margin-bottom: 3rem;">{{ .Title }}</h1>
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem;">
+        {{ range .Pages }}
+        <a href="{{ .Permalink }}" style="display: block; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 1.5rem; text-decoration: none; transition: all 0.2s;">
+            <h2 style="font-family: 'Playfair Display',serif; font-size: 1.4rem; color: #1a6b6b; margin-bottom: 0.5rem;">{{ .Title }}</h2>
+        </a>
         {{ end }}
-    </ul>
-    {{ end }}
+    </div>
 </section>
 {{ end }}
