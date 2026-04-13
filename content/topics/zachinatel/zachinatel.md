@@ -1,6 +1,5 @@
 ---
 title: "Зачинатель"
-pdf: "/zachinatel.pdf"
 ---
 <style>
 .article-body{font-family:"Times New Roman",serif;font-size:1.1rem;line-height:1.9;color:#343a40}
