@@ -15,7 +15,7 @@ title: "Темы"
 <div class="topic-card topic-card--inactive"><h2 class="topic-title">Семья</h2><p class="topic-status">Готовится</p></div>
 <div class="topic-card topic-card--active"><a href="/ru/topics/ritualy/"><h2 class="topic-title">Ритуалы</h2></a></div>
 <div class="topic-card topic-card--inactive"><h2 class="topic-title">Общество</h2><p class="topic-status">Готовится</p></div>
-<div class="topic-card"><a href="/ru/topics/ekonomika/"><h2 class="topic-title">Экономика</h2><p class="topic-count">1 статья</p></a></div>
+<div class="topic-card"><a href="/ru/topics/ekonomika/"><h2 class="topic-title">Экономика</h2></a></div>
 <div class="topic-card topic-card--inactive"><h2 class="topic-title">Ограничения</h2><p class="topic-status">Готовится</p></div>
 <div class="topic-card topic-card--inactive"><h2 class="topic-title">Геополитика</h2><p class="topic-status">Готовится</p></div>
 <div class="topic-card topic-card--inactive"><h2 class="topic-title">Вестники</h2><p class="topic-status">Готовится</p></div>
