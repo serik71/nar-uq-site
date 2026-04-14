@@ -1,6 +1,16 @@
 {{ define "main" }}
 <section style="padding: 120px 40px 80px; max-width: 1200px; margin: 0 auto;">
-    <h1 style="font-family: 'Playfair Display',serif; font-size: 3rem; color: #1a6b6b; margin-bottom: 1rem;">{{ .Title }}</h1>
-    {{ .Content }}
+<style>
+.topic-card--active { cursor: pointer; border: 1px solid #1a6b6b !important; background: #fff !important; }
+.topic-card--active:hover { background: #f0f7f7 !important; }
+.topic-card--active a { text-decoration: none; display: block; }
+.topic-card--inactive { opacity: 0.5; cursor: default; }
+.topic-status { font-size: 0.85rem; color: #888; margin: 0.3rem 0 0; }
+</style>
+{{ if not .IsHome }}
+<a href="../" style="font-size: 0.9rem; color: #1a6b6b; text-decoration: none; display: inline-block; margin-bottom: 2rem;">← Назад</a>
+{{ end }}
+<h1 style="font-family: 'Playfair Display',serif; font-size: 3rem; color: #1a6b6b; margin-bottom: 1rem;">{{ .Title }}</h1>
+{{ .Content }}
 </section>
 {{ end }}
