@@ -1,5 +1,4 @@
 ---
 title: "Рост"
-layout: "topic-article"
-pdf: "/static/rost.docx"
+pdf: "/rost.docx"
 ---
