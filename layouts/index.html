@@ -19,13 +19,15 @@
             </a>
             <nav>
                 <a href="/{{ .Lang }}/topics/">{{ i18n "menuTopics" | default "Темы" }}</a>
-                <a href="/{{ .Lang }}/translation/">{{ i18n "menuTranslation" | default "Перевод" }}</a>
-                <a href="/{{ .Lang }}/articles/">{{ i18n "menuArticles" | default "Статьи" }}</a>
+                <a href="/{{ .Lang }}/topics/">{{ i18n "menuTopics" | default "Темы" }}</a>
+                <span class="nav-inactive">{{ i18n "menuTranslation" | default "Перевод" }}<span class="nav-soon">Готовится</span></span>
+                <span class="nav-inactive">{{ i18n "menuArticles" | default "Статьи" }}<span class="nav-soon">Готовится</span></span>
                 <a href="/{{ .Lang }}/monographs/">{{ i18n "menuMonographs" | default "Монографии" }}</a>
-                <a href="/{{ .Lang }}/learning/">{{ i18n "menuLearning" | default "Обучение" }}</a>
-                <a href="/{{ .Lang }}/analytics/">{{ i18n "menuAnalytics" | default "Аналитика" }}</a>
-                <a href="/{{ .Lang }}/distribution/">{{ i18n "menuDistribution" | default "Распространение" }}</a>
+                <span class="nav-inactive">{{ i18n "menuLearning" | default "Обучение" }}<span class="nav-soon">Готовится</span></span>
+                <span class="nav-inactive">{{ i18n "menuAnalytics" | default "Аналитика" }}<span class="nav-soon">Готовится</span></span>
+                <span class="nav-inactive">{{ i18n "menuDistribution" | default "Распространение" }}<span class="nav-soon">Готовится</span></span>
                 <a href="/{{ .Lang }}/about/">{{ i18n "menuAbout" | default "О проекте" }}</a>
+                <span class="nav-inactive">{{ i18n "menuContacts" | default "Контакты" }}<span class="nav-soon">Готовится</span></span>
                 <div class="lang-switcher">
                     <a href="/ru/" {{ if eq .Lang "ru" }}class="active"{{ end }}>RU</a>
                     <a href="/en/" {{ if eq .Lang "en" }}class="active"{{ end }}>EN</a>
