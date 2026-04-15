@@ -22,8 +22,3 @@ defaultContentLanguageInSubdir = true
   description = "Словесность без посредников"
   author = "Серик Болатжанович Рысжанов"
   accentColor = "#1a6b6b"
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
