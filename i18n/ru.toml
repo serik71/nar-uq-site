@@ -164,3 +164,7 @@ other = "Запрещено коммерческое использование 
 other = "Темы"
 [articles]
 other = "статей"
+[menuContacts]
+other = "Контакты"
+[back]
+other = "Назад"
