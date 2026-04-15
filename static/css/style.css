@@ -652,3 +652,21 @@ footer {
     color: #999;
 }
 main { min-height: calc(100vh - 200px); }
+
+.nav-inactive {
+    color: #999;
+    cursor: default;
+    position: relative;
+    font-size: 0.95rem;
+}
+.nav-soon {
+    display: inline-block;
+    font-size: 0.65rem;
+    color: #fff;
+    background: #999;
+    border-radius: 3px;
+    padding: 1px 5px;
+    margin-left: 4px;
+    vertical-align: middle;
+    font-family: sans-serif;
+}
