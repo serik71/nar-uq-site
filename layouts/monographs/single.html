@@ -1,4 +1,40 @@
 {{ define "main" }}
+<style>
+.scroll-top-btn {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #1a6b6b;
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.scroll-top-btn.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.scroll-top-btn:hover { background: #145555; }
+.monograph-content h1 { font-size:1.8rem;color:#1a6b6b;margin-top:2.5rem;margin-bottom:1rem }
+.monograph-content h2 { font-size:1.4rem;color:#1a6b6b;margin-top:2rem;margin-bottom:.8rem }
+.monograph-content h3 { font-size:1.2rem;color:#1a6b6b;margin-top:1.5rem;margin-bottom:.6rem }
+.monograph-content p { margin-bottom:1rem }
+.monograph-content ul, .monograph-content ol { margin-bottom:1rem;padding-left:1.5rem }
+.monograph-content li { margin-bottom:.4rem }
+.monograph-content blockquote { border-left:4px solid #1a6b6b;padding-left:1rem;margin:1rem 0;color:#555;font-style:italic }
+.monograph-content table { border-collapse:collapse;margin:1rem 0;width:100% }
+.monograph-content th, .monograph-content td { border:1px solid #ddd;padding:.5rem;text-align:left }
+.monograph-content th { background:#f5f9f9 }
+.monograph-content code { background:#f5f5f5;padding:2px 6px;border-radius:3px;font-size:.9em }
+</style>
 <div style="padding:100px 40px 0">
   <a href="javascript:history.back()" style="color:#1a6b6b;text-decoration:none;font-size:.95rem">← Назад</a>
 </div>
@@ -27,4 +63,16 @@
     {{ .Content }}
   </div>
 </article>
+
+<button class="scroll-top-btn" id="scrollTopBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Наверх">↑</button>
+<script>
+(function(){
+  var btn = document.getElementById('scrollTopBtn');
+  if (!btn) return;
+  window.addEventListener('scroll', function(){
+    if (window.scrollY > 400) btn.classList.add('visible');
+    else btn.classList.remove('visible');
+  });
+})();
+</script>
 {{ end }}
