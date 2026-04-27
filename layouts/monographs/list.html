@@ -1,0 +1,31 @@
+{{ define "main" }}
+<div style="padding:100px 40px 0">
+  <a href="javascript:history.back()" style="color:#1a6b6b;text-decoration:none;font-size:.95rem">← Назад</a>
+</div>
+<article style="padding:40px 40px 80px;max-width:1200px;margin:0 auto">
+  <h1 style="font-family:'Playfair Display',serif;font-size:3rem;color:#1a6b6b;margin-bottom:2rem">
+    Монографии
+  </h1>
+
+  <div class="monographs-grid">
+    {{ range (where .Site.RegularPages "Section" "monographs") }}
+    <div class="mono-card">
+      <div class="mono-icon">📖</div>
+      <div class="mono-title">{{ .Title }}</div>
+      {{ with .Params.subtitle }}
+      <div class="mono-subtitle">{{ . }}</div>
+      {{ end }}
+      {{ with .Params.description }}
+      <p class="mono-desc">{{ . }}</p>
+      {{ end }}
+      <div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-top:auto">
+        <a href="{{ .RelPermalink }}" class="mono-btn" style="background:#1a6b6b;color:#fff">Читать</a>
+        {{ with .Params.pdf }}
+        <a href="{{ . }}" class="mono-btn" download style="background:#fff;color:#1a6b6b;border:1px solid #1a6b6b">Скачать PDF</a>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</article>
+{{ end }}
