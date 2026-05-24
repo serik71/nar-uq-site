@@ -3,7 +3,7 @@ title: "Темы"
 ---
 <div class="topics-grid">
 <div class="topic-card topic-card--active"><a href="/ru/topics/zachinatel/"><h2 class="topic-title">Зачинатель</h2></a></div>
-<div class="topic-card topic-card--inactive"><h2 class="topic-title">Словесность</h2><p class="topic-status">Готовится</p></div>
+<div class="topic-card topic-card--active"><a href="/ru/topics/slovesnost/"><h2 class="topic-title">Словесность</h2></a></div>
 <div class="topic-card topic-card--inactive"><h2 class="topic-title">Завет</h2><p class="topic-status">Готовится</p></div>
 <div class="topic-card topic-card--inactive"><h2 class="topic-title">Время</h2><p class="topic-status">Готовится</p></div>
 <div class="topic-card topic-card--inactive"><h2 class="topic-title">Знаки</h2><p class="topic-status">Готовится</p></div>
