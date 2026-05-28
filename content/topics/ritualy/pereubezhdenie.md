@@ -3,7 +3,7 @@ title: "Переубеждение"
 date: 2026-05-28
 draft: false
 slug: pereubezhdenie
-section: zachinatel
+section: ritualy
 ---
 
 ПЕРЕУБЕЖДЕНИЕ
