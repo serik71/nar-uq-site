@@ -13,5 +13,12 @@
 {{ end }}
 <h1 style="font-family: 'Playfair Display',serif; font-size: 3rem; color: #1a6b6b; margin-bottom: 1rem;">{{ .Title }}</h1>
 {{ .Content }}
+<div class="topics-grid">
+{{ range .RegularPages.ByTitle }}
+<a href="{{ .Permalink }}" class="topic-card" style="display:block;background:#f8f9fa;border:1px solid #e9ecef;border-radius:8px;padding:1.5rem;text-decoration:none;">
+<h2 class="topic-title" style="font-family:'Playfair Display',serif;font-size:1.4rem;color:#1a6b6b;margin-bottom:0.5rem;">{{ .Title }}</h2>
+</a>
+{{ end }}
+</div>
 </section>
 {{ end }}
