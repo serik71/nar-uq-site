@@ -17,6 +17,7 @@
                 <img class="logo-mark" src="{{ "logo.png" | relURL }}" alt="NQ">
                 <span class="logo-text">NAR-UQ</span>
             </a>
+            <button class="nav-toggle" aria-label="Меню" aria-expanded="false"><span></span><span></span><span></span></button>
             <nav>
                 <a href="/{{ .Lang }}/topics/">{{ i18n "menuTopics" | default "Темы" }}</a>
                 <a href="/{{ .Lang }}/translation/">{{ i18n "menuTranslation" | default "Перевод" }}</a>
@@ -191,5 +192,10 @@
             <p>{{ i18n "footerLicense" | default "Материалы сайта защищены лицензией" }} <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>. {{ i18n "footerLicenseDesc" | default "Запрещено коммерческое использование и создание производных работ без письменного разрешения автора." }}</p>
         </div>
     </footer>
+    <script>
+(function(){var t=document.querySelector('.nav-toggle');if(!t)return;
+t.addEventListener('click',function(){var o=document.body.classList.toggle('nav-open');t.setAttribute('aria-expanded',o);});
+document.querySelectorAll('nav a').forEach(function(a){a.addEventListener('click',function(){document.body.classList.remove('nav-open');t.setAttribute('aria-expanded',false);});});})();
+</script>
 </body>
 </html>

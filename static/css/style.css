@@ -689,5 +689,5 @@ main { min-height: calc(100vh - 200px); }
   .hero-title{font-size:2.1rem;}
   .manifesto-title{font-size:1.9rem;}
   .wordry-term{font-size:2.2rem;}
-  .section,.hero,.manifesto,.wordry-section,.meaning,.features,.cta,.monographs,.about-hero,.about-section,.contact-section,.learning-hero,.analytics-hero,.distribution-hero,.quote-card{padding-left:20px;padding-right:20px;}
+  .hero,.manifesto,.wordry-section,.meaning,.features,.cta,.monographs{padding-left:20px;padding-right:20px;}
 }
