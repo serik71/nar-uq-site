@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div style="padding:100px 40px 0">
+  <a href="javascript:history.back()" style="color:#1a6b6b;text-decoration:none;font-size:.95rem">← Назад</a>
+</div>
+<section style="padding:40px 40px 80px;max-width:1200px;margin:0 auto">
+  <h1 style="font-family:'Playfair Display',serif;font-size:3rem;color:#1a6b6b;margin-bottom:2rem">{{ .Title }}</h1>
+  {{ .Content }}
+  {{/* Верхняя страница: категории-подразделы. Страница категории: материалы. */}}
+  {{ with .Sections }}
+  <div class="topics-grid">
+    {{ range .ByTitle }}
+    <a href="{{ .Permalink }}" class="topic-card" style="display:block;background:#f8f9fa;border:1px solid #e9ecef;border-radius:8px;padding:1.5rem;text-decoration:none;">
+      <h2 class="topic-title" style="font-family:'Playfair Display',serif;font-size:1.4rem;color:#1a6b6b;margin-bottom:0.5rem;">{{ .Title }}</h2>
+    </a>
+    {{ end }}
+  </div>
+  {{ end }}
+  {{ with .RegularPages.ByTitle }}
+  <div class="topics-grid">
+    {{ range . }}
+    <a href="{{ .Permalink }}" class="topic-card" style="display:block;background:#f8f9fa;border:1px solid #e9ecef;border-radius:8px;padding:1.5rem;text-decoration:none;">
+      <h2 class="topic-title" style="font-family:'Playfair Display',serif;font-size:1.4rem;color:#1a6b6b;margin-bottom:0.5rem;">{{ .Title }}</h2>
+    </a>
+    {{ end }}
+  </div>
+  {{ end }}
+</section>
+{{ end }}

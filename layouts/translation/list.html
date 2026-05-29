@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div style="padding:100px 40px 0">
+  <a href="javascript:history.back()" style="color:#1a6b6b;text-decoration:none;font-size:.95rem">← Назад</a>
+</div>
+<article style="padding:40px 40px 80px;max-width:900px;margin:0 auto">
+  <h1 style="font-family:'Playfair Display',serif;font-size:3rem;color:#1a6b6b;margin-bottom:2rem">{{ .Title }}</h1>
+  <div style="font-size:1.05rem;line-height:1.8;color:#343a40">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}

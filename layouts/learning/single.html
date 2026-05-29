@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div style="padding:100px 40px 0">
+  <a href="../" style="color:#1a6b6b;text-decoration:none;font-size:.95rem">← Обучение</a>
+</div>
+<article style="padding:40px 40px 80px;max-width:900px;margin:0 auto">
+  <h1 style="font-family:'Playfair Display',serif;font-size:2.4rem;color:#1a6b6b;margin-bottom:.4rem">{{ .Title }}</h1>
+  {{ with .Params.description }}
+  <div style="font-size:1.1rem;color:#666;margin-bottom:1.5rem;font-style:italic">{{ . }}</div>
+  {{ end }}
+  {{ with .Params.pdf }}
+  <div style="margin:2rem 0;padding:1rem 1.5rem;background:#f5f9f9;border-left:4px solid #1a6b6b;border-radius:4px">
+    <a href="{{ . }}" target="_blank" rel="noopener" style="display:inline-block;background:#1a6b6b;color:#fff;padding:.6rem 1.2rem;border-radius:4px;text-decoration:none;font-weight:500">📥 Открыть / скачать PDF</a>
+    <span style="margin-left:1rem;color:#666;font-size:.9rem">Скан хранится отдельно (R2)</span>
+  </div>
+  {{ end }}
+  <div style="font-size:1.05rem;line-height:1.8;color:#343a40;margin-top:2rem">
+    {{ .Content }}
+  </div>
+  <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;" style="display:inline-block;margin-top:3rem;color:#1a6b6b;text-decoration:none;font-size:.95rem">↑ Наверх</a>
+</article>
+{{ end }}
