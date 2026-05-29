@@ -15,5 +15,10 @@
         {{ block "main" . }}{{ end }}
     </main>
     {{ partial "footer.html" . }}
+    <script>
+(function(){var t=document.querySelector('.nav-toggle');if(!t)return;
+t.addEventListener('click',function(){var o=document.body.classList.toggle('nav-open');t.setAttribute('aria-expanded',o);});
+document.querySelectorAll('nav a').forEach(function(a){a.addEventListener('click',function(){document.body.classList.remove('nav-open');t.setAttribute('aria-expanded',false);});});})();
+</script>
 </body>
 </html>

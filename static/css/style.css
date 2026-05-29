@@ -670,3 +670,24 @@ main { min-height: calc(100vh - 200px); }
     vertical-align: middle;
     font-family: sans-serif;
 }
+
+/* ── МОБИЛЬНАЯ НАВИГАЦИЯ ── */
+.nav-toggle{display:none;flex-direction:column;justify-content:center;gap:5px;width:44px;height:44px;margin-left:auto;background:none;border:none;cursor:pointer;padding:10px;z-index:1100;position:relative;}
+.nav-toggle span{display:block;height:2px;width:100%;background:var(--accent);transition:transform .3s,opacity .3s;}
+.nav-open .nav-toggle span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+.nav-open .nav-toggle span:nth-child(2){opacity:0;}
+.nav-open .nav-toggle span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+@media (max-width:768px){
+  .nav-toggle{display:flex;}
+  .header-inner .btn-primary{display:none;}
+  nav{display:flex;position:fixed;top:0;right:0;height:100vh;width:min(82vw,320px);flex-direction:column;align-items:flex-start;gap:2px;background:var(--white);padding:96px 28px 40px;box-shadow:-12px 0 40px rgba(0,0,0,.12);transform:translateX(100%);transition:transform .35s ease;overflow-y:auto;z-index:1000;}
+  .nav-open nav{transform:translateX(0);}
+  nav a{font-size:1.1rem;padding:12px 0;width:100%;}
+  body.nav-open{overflow:hidden;}
+}
+@media (max-width:480px){
+  .hero-title{font-size:2.1rem;}
+  .manifesto-title{font-size:1.9rem;}
+  .wordry-term{font-size:2.2rem;}
+  .section,.hero,.manifesto,.wordry-section,.meaning,.features,.cta,.monographs,.about-hero,.about-section,.contact-section,.learning-hero,.analytics-hero,.distribution-hero,.quote-card{padding-left:20px;padding-right:20px;}
+}
