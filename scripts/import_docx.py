@@ -12,6 +12,7 @@ SLUG_MAP = {
     "зачинатель": "zachinatel",
     "словесность": "slovesnost",
     "завет": "zavet",
+    "обязательства": "zavet",
     "время": "vremya",
     "знаки": "znaki",
     "власть": "vlast",
