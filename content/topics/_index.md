@@ -12,7 +12,7 @@ title: "Темы"
 <div class="topic-card topic-card--inactive"><h2 class="topic-title">Незримое</h2><p class="topic-status">Готовится</p></div>
 <div class="topic-card topic-card--inactive"><h2 class="topic-title">Человек</h2><p class="topic-status">Готовится</p></div>
 <div class="topic-card topic-card--active"><a href="/ru/topics/sluzhenie/"><h2 class="topic-title">Служение</h2></a></div>
-<div class="topic-card topic-card--inactive"><h2 class="topic-title">Семья</h2><p class="topic-status">Готовится</p></div>
+<div class="topic-card topic-card--active"><a href="/ru/topics/semya/"><h2 class="topic-title">Отношения</h2></a></div>
 <div class="topic-card topic-card--active"><a href="/ru/topics/ritualy/"><h2 class="topic-title">Ритуалы</h2></a></div>
 <div class="topic-card topic-card--inactive"><h2 class="topic-title">Общество</h2><p class="topic-status">Готовится</p></div>
 <div class="topic-card topic-card--active"><a href="/ru/topics/ekonomika/"><h2 class="topic-title">Экономика</h2></a></div>
