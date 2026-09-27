@@ -7,14 +7,29 @@
   {{ if eq .Language.Lang "ru" }}
   <div style="margin:0 0 2.5rem;padding:1.25rem 1.5rem;background:#f5f9f9;border-left:4px solid #1a6b6b;border-radius:4px">
     <h2 style="font-family:'Playfair Display',serif;font-size:1.5rem;color:#1a6b6b;margin:0 0 1rem">Издания перевода</h2>
-    <ul style="list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.75rem">
-      <li><a href="/pdf/perevod-izdanie-1.pdf" download style="display:inline-block;background:#1a6b6b;color:#fff;padding:.6rem 1.2rem;border-radius:4px;text-decoration:none;font-weight:500">📥 Первое издание (PDF)</a></li>
-      <li><a href="/pdf/perevod-izdanie-2.pdf" download style="display:inline-block;background:#1a6b6b;color:#fff;padding:.6rem 1.2rem;border-radius:4px;text-decoration:none;font-weight:500">📥 Второе издание (PDF)</a></li>
-      <li><a href="/pdf/perevod-izdanie-3.pdf" download style="display:inline-block;background:#1a6b6b;color:#fff;padding:.6rem 1.2rem;border-radius:4px;text-decoration:none;font-weight:500">📥 Третье издание (PDF)</a></li>
+    <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.75rem">
+      <li style="display:flex;flex-wrap:wrap;align-items:center;gap:.75rem">
+        <span style="min-width:10rem;color:#343a40;font-weight:500">Первое издание</span>
+        <a href="/pdf/perevod-izdanie-1.pdf" target="_blank" rel="noopener" style="display:inline-block;padding:.6rem 1.2rem;border-radius:4px;text-decoration:none;font-weight:500;border:1px solid #1a6b6b;background:#fff;color:#1a6b6b">📖 Читать</a>
+        <a href="/pdf/perevod-izdanie-1.pdf" download style="display:inline-block;padding:.6rem 1.2rem;border-radius:4px;text-decoration:none;font-weight:500;border:1px solid #1a6b6b;background:#1a6b6b;color:#fff">📥 Скачать</a>
+      </li>
+      <li style="display:flex;flex-wrap:wrap;align-items:center;gap:.75rem">
+        <span style="min-width:10rem;color:#343a40;font-weight:500">Второе издание</span>
+        <a href="/pdf/perevod-izdanie-2.pdf" target="_blank" rel="noopener" style="display:inline-block;padding:.6rem 1.2rem;border-radius:4px;text-decoration:none;font-weight:500;border:1px solid #1a6b6b;background:#fff;color:#1a6b6b">📖 Читать</a>
+        <a href="/pdf/perevod-izdanie-2.pdf" download style="display:inline-block;padding:.6rem 1.2rem;border-radius:4px;text-decoration:none;font-weight:500;border:1px solid #1a6b6b;background:#1a6b6b;color:#fff">📥 Скачать</a>
+      </li>
+      <li style="display:flex;flex-wrap:wrap;align-items:center;gap:.75rem">
+        <span style="min-width:10rem;color:#343a40;font-weight:500">Третье издание</span>
+        <a href="/pdf/perevod-izdanie-3.pdf" target="_blank" rel="noopener" style="display:inline-block;padding:.6rem 1.2rem;border-radius:4px;text-decoration:none;font-weight:500;border:1px solid #1a6b6b;background:#fff;color:#1a6b6b">📖 Читать</a>
+        <a href="/pdf/perevod-izdanie-3.pdf" download style="display:inline-block;padding:.6rem 1.2rem;border-radius:4px;text-decoration:none;font-weight:500;border:1px solid #1a6b6b;background:#1a6b6b;color:#fff">📥 Скачать</a>
+      </li>
     </ul>
   </div>
   {{ end }}
   <div style="font-size:1.05rem;line-height:1.8;color:#343a40">
+    {{ if eq .Language.Lang "ru" }}
+    <h2 style="font-family:'Playfair Display',serif;font-size:1.5rem;color:#1a6b6b;margin:0 0 1rem">Изоморфный перевод</h2>
+    {{ end }}
     {{ .Content }}
   </div>
 </article>
