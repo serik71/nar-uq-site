@@ -4,6 +4,16 @@
 </div>
 <article style="padding:40px 40px 80px;max-width:900px;margin:0 auto">
   <h1 style="font-family:'Playfair Display',serif;font-size:3rem;color:#1a6b6b;margin-bottom:2rem">{{ .Title }}</h1>
+  {{ if eq .Language.Lang "ru" }}
+  <div style="margin:0 0 2.5rem;padding:1.25rem 1.5rem;background:#f5f9f9;border-left:4px solid #1a6b6b;border-radius:4px">
+    <h2 style="font-family:'Playfair Display',serif;font-size:1.5rem;color:#1a6b6b;margin:0 0 1rem">Издания перевода</h2>
+    <ul style="list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.75rem">
+      <li><a href="/pdf/perevod-izdanie-1.pdf" download style="display:inline-block;background:#1a6b6b;color:#fff;padding:.6rem 1.2rem;border-radius:4px;text-decoration:none;font-weight:500">📥 Первое издание (PDF)</a></li>
+      <li><a href="/pdf/perevod-izdanie-2.pdf" download style="display:inline-block;background:#1a6b6b;color:#fff;padding:.6rem 1.2rem;border-radius:4px;text-decoration:none;font-weight:500">📥 Второе издание (PDF)</a></li>
+      <li><a href="/pdf/perevod-izdanie-3.pdf" download style="display:inline-block;background:#1a6b6b;color:#fff;padding:.6rem 1.2rem;border-radius:4px;text-decoration:none;font-weight:500">📥 Третье издание (PDF)</a></li>
+    </ul>
+  </div>
+  {{ end }}
   <div style="font-size:1.05rem;line-height:1.8;color:#343a40">
     {{ .Content }}
   </div>
