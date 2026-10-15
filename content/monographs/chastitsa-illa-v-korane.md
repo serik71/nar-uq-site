@@ -2,6 +2,7 @@
 title: "Частица إِلَّا в Коране"
 subtitle: "Корпусный анализ 664 вхождений"
 description: "Полный корпусный анализ всех вхождений частицы إِلَّا в Коране."
+lastmod: 2026-10-15
 slug: chastitsa-illa-v-korane
 pdf: "/chastitsa illa v korane.pdf"
 draft: false
