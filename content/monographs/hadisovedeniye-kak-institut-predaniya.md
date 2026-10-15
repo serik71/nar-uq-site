@@ -3,7 +3,7 @@ title: "Хадисоведение как институт предания"
 subtitle: "Эпистемические ограничения системы"
 description: "Исследование эпистемических ограничений хадисоведения как системы верификации предания."
 slug: hadisovedeniye-kak-institut-predaniya
-pdf: "/hadisovedeniye kak institut predaniya.pdf"
+pdf: "/hadisovedeniye kak institut predania.pdf"
 draft: false
 ---
 
