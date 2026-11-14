@@ -1,6 +1,6 @@
 ---
 title: "Предел времени"
-date: 2026-06-30
+date: 2026-11-14
 draft: false
 slug: predel-vremeni
 section: vremya
