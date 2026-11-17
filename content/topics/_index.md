@@ -18,7 +18,7 @@ title: "Темы"
 <div class="topic-card topic-card--active"><a href="/ru/topics/ekonomika/"><h2 class="topic-title">Экономика</h2></a></div>
 <div class="topic-card topic-card--active"><a href="/ru/topics/ogranicheniya/"><h2 class="topic-title">Ограничения</h2></a></div>
 <div class="topic-card topic-card--active"><a href="/ru/topics/geopolitika/"><h2 class="topic-title">Геополитика</h2></a></div>
+<div class="topic-card topic-card--active"><a href="/ru/topics/smert/"><h2 class="topic-title">Смерть и после</h2></a></div>
 <div class="topic-card topic-card--active"><a href="/ru/topics/vestniki/"><h2 class="topic-title">Вестники, посланники</h2></a></div>
 <div class="topic-card topic-card--active"><a href="/ru/topics/pravedniki/"><h2 class="topic-title">Праведники</h2></a></div>
-<div class="topic-card topic-card--active"><a href="/ru/topics/smert/"><h2 class="topic-title">Смерть и после</h2></a></div>
 </div>
