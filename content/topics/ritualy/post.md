@@ -1,9 +1,10 @@
 ---
 title: "Пост"
-date: 2026-11-14
+date: 2026-11-17
 draft: false
 slug: post
 section: ritualy
+weight: 2
 ---
 
 **Пост**

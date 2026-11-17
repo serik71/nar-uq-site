@@ -1,9 +1,10 @@
 ---
 title: "Застревание во времени"
-date: 2026-11-14
+date: 2026-11-17
 draft: false
 slug: zastrevanie-vo-vremeni
 section: vremya
+weight: 8
 ---
 
 **Застревание во времени**

@@ -1,9 +1,10 @@
 ---
 title: "Сроки"
-date: 2026-11-14
+date: 2026-11-17
 draft: false
 slug: sroki
 section: vremya
+weight: 9
 ---
 
 **Сроки**

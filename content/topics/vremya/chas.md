@@ -1,9 +1,10 @@
 ---
 title: "Час"
-date: 2026-11-14
+date: 2026-11-17
 draft: false
 slug: chas
 section: vremya
+weight: 10
 ---
 
 **Час**

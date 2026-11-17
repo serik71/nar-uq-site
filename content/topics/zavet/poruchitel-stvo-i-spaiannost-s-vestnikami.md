@@ -1,9 +1,10 @@
 ---
 title: "Поручительство и спаянность с вестниками"
-date: 2026-11-14
+date: 2026-11-17
 draft: false
 slug: poruchitel-stvo-i-spaiannost-s-vestnikami
 section: zavet
+weight: 1
 ---
 
 **Поручительство и спаянность с вестниками**

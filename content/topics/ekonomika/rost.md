@@ -1,9 +1,10 @@
 ---
 title: "Рост"
-date: 2026-11-14
+date: 2026-11-17
 draft: false
 slug: rost
 section: ekonomika
+weight: 1
 ---
 
 **Рост**

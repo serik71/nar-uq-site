@@ -1,9 +1,10 @@
 ---
 title: "Длительность и её границы"
-date: 2026-11-14
+date: 2026-11-17
 draft: false
 slug: dlitelnost-i-ee-granitsy
 section: vremya
+weight: 5
 ---
 
 **Длительность и её границы**

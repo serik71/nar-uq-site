@@ -1,9 +1,10 @@
 ---
 title: "Беспорочный вклад и правдивое отчисление"
-date: 2026-11-14
+date: 2026-11-17
 draft: false
 slug: besporochnyy-vklad-i-pravdivoe-otchislenie
 section: ekonomika
+weight: 2
 ---
 
 **Беспорочный вклад и правдивое отчисление**

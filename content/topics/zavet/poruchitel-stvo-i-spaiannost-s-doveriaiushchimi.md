@@ -1,9 +1,10 @@
 ---
 title: "Поручительство и спаянность с доверяющими"
-date: 2026-11-14
+date: 2026-11-17
 draft: false
 slug: poruchitel-stvo-i-spaiannost-s-doveriaiushchimi
 section: zavet
+weight: 5
 ---
 
 **Поручительство и спаянность с доверяющими**

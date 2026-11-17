@@ -1,9 +1,10 @@
 ---
 title: "Пора"
-date: 2026-11-14
+date: 2026-11-17
 draft: false
 slug: pora
 section: vremya
+weight: 7
 ---
 
 **Пора**
