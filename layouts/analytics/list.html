@@ -15,7 +15,7 @@
     {{ end }}
   </div>
   {{ end }}
-  {{ with .RegularPages.ByTitle }}
+  {{ with .RegularPages.ByWeight }}
   <div class="topics-grid">
     {{ range . }}
     <a href="{{ .Permalink }}" class="topic-card" style="display:block;background:#f8f9fa;border:1px solid #e9ecef;border-radius:8px;padding:1.5rem;text-decoration:none;">
