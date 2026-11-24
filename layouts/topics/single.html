@@ -18,7 +18,8 @@
     {{ with .Params.pdf }}
     <a href="{{ . }}" download style="display: inline-block; background: #1a6b6b; color: white; padding: 0.6rem 1.4rem; border-radius: 6px; text-decoration: none; font-size: 0.95rem; margin-bottom: 2rem;">Скачать DOCX</a>
     {{ end }}
-    <div style="font-size: 1.1rem; line-height: 1.9; color: #343a40;">
+    <style>.topic-content blockquote{border-left:4px solid #1a6b6b;background:#f4f8f8;padding:.8rem 1.2rem;margin:1.2rem 0}.topic-content blockquote p{margin:0}</style>
+    <div class="topic-content" style="font-size: 1.1rem; line-height: 1.9; color: #343a40;">
         {{ .Content }}
     </div>
     <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;" style="display: inline-block; margin-top: 3rem; color: #1a6b6b; text-decoration: none; font-size: 0.95rem;">↑ Наверх</a>
