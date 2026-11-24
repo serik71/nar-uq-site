@@ -15,7 +15,35 @@
     {{ end }}
   </div>
   {{ end }}
-  {{ with .RegularPages.ByWeight }}
+  {{/* Категории: порядок в _index.md (category_order), статья — front matter category. */}}
+  {{ $pages := .RegularPages }}
+  {{ $order := .Params.category_order }}
+  {{ if $order }}
+  {{ range $order }}
+  {{ $c := . }}
+  {{ with where $pages "Params.category" $c }}
+  <h2 class="analytics-category" style="font-family:'Playfair Display',serif;font-size:2rem;color:#1a6b6b;margin:2.5rem 0 1.2rem">{{ $c }}</h2>
+  <div class="topics-grid">
+    {{ range .ByWeight }}
+    <a href="{{ .Permalink }}" class="topic-card" style="display:block;background:#f8f9fa;border:1px solid #e9ecef;border-radius:8px;padding:1.5rem;text-decoration:none;">
+      <h2 class="topic-title" style="font-family:'Playfair Display',serif;font-size:1.4rem;color:#1a6b6b;margin-bottom:0.5rem;">{{ .Title }}</h2>
+    </a>
+    {{ end }}
+  </div>
+  {{ end }}
+  {{ end }}
+  {{ $rest := where $pages "Params.category" "not in" $order }}
+  {{ with $rest }}
+  <div class="topics-grid" style="margin-top:2.5rem">
+    {{ range .ByWeight }}
+    <a href="{{ .Permalink }}" class="topic-card" style="display:block;background:#f8f9fa;border:1px solid #e9ecef;border-radius:8px;padding:1.5rem;text-decoration:none;">
+      <h2 class="topic-title" style="font-family:'Playfair Display',serif;font-size:1.4rem;color:#1a6b6b;margin-bottom:0.5rem;">{{ .Title }}</h2>
+    </a>
+    {{ end }}
+  </div>
+  {{ end }}
+  {{ else }}
+  {{ with $pages.ByWeight }}
   <div class="topics-grid">
     {{ range . }}
     <a href="{{ .Permalink }}" class="topic-card" style="display:block;background:#f8f9fa;border:1px solid #e9ecef;border-radius:8px;padding:1.5rem;text-decoration:none;">
@@ -23,6 +51,7 @@
     </a>
     {{ end }}
   </div>
+  {{ end }}
   {{ end }}
 </section>
 {{ end }}
