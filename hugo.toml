@@ -8,7 +8,7 @@ defaultContentLanguageInSubdir = true
   [languages.ru]
     languageName = "RU"
     weight = 1
-    title = "NAR-UQ — Словесность"
+    title = "NAR-UQ — Чтение"
   [languages.en]
     languageName = "EN"
     weight = 2
@@ -19,7 +19,7 @@ defaultContentLanguageInSubdir = true
     title = "NAR-UQ — Сөздік"
 
 [params]
-  description = "Словесность без посредников"
+  description = "Чтение без посредников"
   author = "Серик Болатжанович Рысжанов"
   accentColor = "#1a6b6b"
 

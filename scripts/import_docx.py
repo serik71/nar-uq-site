@@ -10,7 +10,8 @@ CONTENT = REPO_ROOT / "content" / "topics"
 
 SLUG_MAP = {
     "зачинатель": "zachinatel",
-    "словесность": "slovesnost",
+    "чтение": "chtenie",
+    "словесность": "chtenie",
     "завет": "zavet",
     "обязательства": "zavet",
     "время": "vremya",

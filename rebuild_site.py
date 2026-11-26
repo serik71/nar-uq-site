@@ -36,7 +36,7 @@ defaultContentLanguageInSubdir = true
   [languages.ru]
     languageName = "RU"
     weight = 1
-    title = "NAR-UQ — Словесность"
+    title = "NAR-UQ — Чтение"
   [languages.en]
     languageName = "EN"
     weight = 2
@@ -47,7 +47,7 @@ defaultContentLanguageInSubdir = true
     title = "NAR-UQ — Сөздік"
 
 [params]
-  description = "Словесность без посредников"
+  description = "Чтение без посредников"
   author = "Серик Болатжанович Рысжанов"
   accentColor = "#1a6b6b"
 ''')
@@ -192,7 +192,7 @@ with open('layouts/partials/index.html', 'w') as f:
     <section class="hero">
         <div class="hero-content">
             <div class="hero-badge">{{ i18n "heroBadge" | default "Реформа понимания" }}</div>
-            <h1 class="hero-title">{{ i18n "heroTitle1" | default "Словесность" }}<br><span class="highlight">{{ i18n "heroTitle2" | default "без посредников" }}</span></h1>
+            <h1 class="hero-title">{{ i18n "heroTitle1" | default "Чтение" }}<br><span class="highlight">{{ i18n "heroTitle2" | default "без посредников" }}</span></h1>
             <p class="hero-subtitle">{{ i18n "heroSubtitle" | default "Послание самодостаточно." }}</p>
             <div class="hero-buttons">
                 <a href="/{{ .Lang }}/translation/" class="btn btn-primary">{{ i18n "btnTranslation" | default "Читать перевод" }} →</a>
@@ -222,7 +222,7 @@ with open('layouts/partials/index.html', 'w') as f:
         <div class="manifesto-inner">
             <div class="manifesto-label">{{ i18n "manifestoLabel" | default "Позиция проекта" }}</div>
             <h2 class="manifesto-title">{{ i18n "manifestoTitle" | default "Доверие первоисточнику" }}</h2>
-            <p class="manifesto-text">{{ i18n "manifestoText1" | default "Лишь Творец объективен, а люди субъективны." }} <strong>{{ i18n "manifestoStrong1" | default "1400 лет традиции" }}</strong> {{ i18n "manifestoText2" | default "увели от откровения." }}<br><br>{{ i18n "manifestoText3" | default "Этот проект предлагает" }} <strong>{{ i18n "manifestoStrong2" | default "альтернативу" }}</strong>{{ i18n "manifestoText4" | default ": понимание Словесности из самой Словесности." }}</p>
+            <p class="manifesto-text">{{ i18n "manifestoText1" | default "Лишь Творец объективен, а люди субъективны." }} <strong>{{ i18n "manifestoStrong1" | default "1400 лет традиции" }}</strong> {{ i18n "manifestoText2" | default "увели от откровения." }}<br><br>{{ i18n "manifestoText3" | default "Этот проект предлагает" }} <strong>{{ i18n "manifestoStrong2" | default "альтернативу" }}</strong>{{ i18n "manifestoText4" | default ": понимание Чтения из самого Чтения." }}</p>
         </div>
     </section>
 
@@ -233,7 +233,7 @@ with open('layouts/partials/index.html', 'w') as f:
                 <h2 class="section-title">{{ i18n "featuresTitle" | default "Что вы найдёте на сайте" }}</h2>
             </div>
             <div class="features-grid">
-                <a href="/{{ .Lang }}/translation/" class="feature-card"><div class="feature-icon">📖</div><div class="feature-title">{{ i18n "menuTranslation" | default "Перевод" }}</div><p class="feature-desc">{{ i18n "featureTranslationDesc" | default "Полный текст Словесности." }}</p><span class="feature-arrow">{{ i18n "featureOpen" | default "Открыть" }} →</span></a>
+                <a href="/{{ .Lang }}/translation/" class="feature-card"><div class="feature-icon">📖</div><div class="feature-title">{{ i18n "menuTranslation" | default "Перевод" }}</div><p class="feature-desc">{{ i18n "featureTranslationDesc" | default "Полный текст Чтения." }}</p><span class="feature-arrow">{{ i18n "featureOpen" | default "Открыть" }} →</span></a>
                 <a href="/{{ .Lang }}/articles/" class="feature-card"><div class="feature-icon">📑</div><div class="feature-title">{{ i18n "menuArticles" | default "Статьи" }}</div><p class="feature-desc">{{ i18n "featureArticlesDesc" | default "150+ материалов." }}</p><span class="feature-arrow">{{ i18n "featureView" | default "Смотреть" }} →</span></a>
                 <a href="/{{ .Lang }}/monographs/" class="feature-card"><div class="feature-icon">📚</div><div class="feature-title">{{ i18n "menuMonographs" | default "Монографии" }}</div><p class="feature-desc">{{ i18n "featureMonographsDesc" | default "Научные монографии." }}</p><span class="feature-arrow">{{ i18n "featureOpen" | default "Открыть" }} →</span></a>
                 <a href="/{{ .Lang }}/learning/" class="feature-card"><div class="feature-icon">🎓</div><div class="feature-title">{{ i18n "menuLearning" | default "Обучение" }}</div><p class="feature-desc">{{ i18n "featureLearningDesc" | default "Учебник арабского языка." }}</p><span class="feature-arrow">{{ i18n "featureStart" | default "Начать" }} →</span></a>
