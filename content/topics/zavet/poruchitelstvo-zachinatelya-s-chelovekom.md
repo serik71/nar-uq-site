@@ -1,6 +1,6 @@
 ---
 title: "Поручительство Зачинателя с человеком"
-date: 2026-11-24
+date: 2026-11-26
 draft: false
 slug: poruchitelstvo-zachinatelya-s-chelovekom
 section: zavet

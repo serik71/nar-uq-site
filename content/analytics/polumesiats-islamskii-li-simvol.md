@@ -1,6 +1,6 @@
 ---
 title: "Полумесяц — исламский ли символ?"
-date: 2026-11-24
+date: 2026-11-26
 draft: false
 slug: polumesiats-islamskii-li-simvol
 section: analytics

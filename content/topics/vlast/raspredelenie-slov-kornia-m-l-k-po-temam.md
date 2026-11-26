@@ -1,6 +1,6 @@
 ---
 title: "Распределение слов корня م-ل-ك по темам"
-date: 2026-11-24
+date: 2026-11-26
 draft: false
 slug: raspredelenie-slov-kornia-m-l-k-po-temam
 section: vlast

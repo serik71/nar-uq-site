@@ -1,6 +1,6 @@
 ---
 title: "О тех, чьими правами завладели"
-date: 2026-11-24
+date: 2026-11-26
 draft: false
 slug: o-teh-chimi-pravami-zavladeli
 section: semya

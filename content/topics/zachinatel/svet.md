@@ -1,6 +1,6 @@
 ---
 title: "Свет"
-date: 2026-11-24
+date: 2026-11-26
 draft: false
 slug: svet
 section: zachinatel
