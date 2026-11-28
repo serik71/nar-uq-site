@@ -1,0 +1,32 @@
+{{- /* Описание, canonical, hreflang и Open Graph для поисковиков и соцсетей */ -}}
+{{- $desc := .Description -}}
+{{- if .IsHome -}}
+  {{- $desc = i18n "heroSubtitle" | default site.Params.description -}}
+{{- else if and (not $desc) .IsPage -}}
+  {{- range findRE `(?s)<p>.*?</p>` .Content -}}
+    {{- $t := . | plainify | htmlUnescape | chomp | strings.TrimLeft " \n\t" | strings.TrimRight " \n\t" -}}
+    {{- if and (not $desc) (gt (strings.RuneCount $t) 120) (not (hasPrefix $t "Здесь и далее")) -}}
+      {{- $desc = $t -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $desc -}}
+  {{- $desc = printf "%s — %s" .Title site.Title -}}
+{{- end -}}
+{{- $desc = $desc | truncate 155 -}}
+{{- $title := .Title -}}
+{{- if .IsHome }}{{ $title = site.Title }}{{ end -}}
+<meta name="description" content="{{ $desc }}">
+<link rel="canonical" href="{{ .Permalink }}">
+{{- if .IsTranslated }}
+{{- range .AllTranslations }}
+<link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
+{{- end }}
+{{- end }}
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:site_name" content="NAR-UQ">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ "logo.png" | absURL }}">
+<meta property="og:locale" content="{{ .Lang }}">
