@@ -2,6 +2,7 @@
 title: "Текстологический статус Корана"
 subtitle: "Самореферентные указания как критерий идентификации аутентичного мусхафа"
 description: "Методологически новый подход к датировке коранического текста."
+lastmod: 2026-11-28
 slug: tekstologicheskiy-status-korana
 pdf: "/tekstologicheskiy status korana.pdf"
 draft: false
